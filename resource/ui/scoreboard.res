@@ -28,14 +28,14 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"BlackTeamBG"
-		"xpos"			"45"
-		"ypos"			"53"
+		"xpos"			"40"
+		"ypos"			"256"
 		"zpos"			"1"
-		"wide"			"550"
-		"tall"			"15"
+		"wide"			"560"
+		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"0 0 0 255"
+		"bgcolor_override"	"0 0 0 150"
 		
 		if_mvm
 		{
@@ -54,6 +54,26 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"mBluTeam"
+		"alpha"			"100"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	"BlueScoreBG2"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"BlueScoreBG2"
+		"xpos"			"40"
+		"ypos"			"256"
+		"zpos"			"0"
+		"wide"			"280"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"mBluTeam"
+		"alpha"			"100"
 		
 		if_mvm
 		{
@@ -121,6 +141,28 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"mRedTeam"
+		"alpha"			"100"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	"RedScoreBG2"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"RedScoreBG2"
+		"xpos"			"320"
+		"ypos"			"256"
+		"zpos"			"0"
+		"wide"			"280"
+		"tall"			"24"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"mRedTeam"
+		"alpha"			"100"
 		
 		if_mvm
 		{
@@ -234,7 +276,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"mBluTeam"
+		"fgcolor"		"255 255 255 255"
 		
 		if_mvm
 		{
@@ -263,7 +305,7 @@
 		{
 			"visible"		"0"
 		}
-	}							
+	}	
 	"BlueTeamPlayerCount"
 	{
 		"ControlName"		"CExLabel"
@@ -280,7 +322,30 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"mBluTeam"
+		"fgcolor"		"255 255 255 255"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}			
+	"BlueTeamPlayerCount2"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"BlueTeamPlayerCount2"
+		"font"			"mfontbold16"
+		"labelText"		"%blueteamplayercount%"
+		"textAlignment"		"west"
+		"xpos"			"81"
+		"ypos"			"51"
+		"zpos"			"2"
+		"wide"			"160"
+		"tall"			"20"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"0 0 0 255"
 		
 		if_mvm
 		{
@@ -325,7 +390,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"mRedTeam"
+		"fgcolor"		"255 255 255 255"
 		
 		if_mvm
 		{
@@ -362,7 +427,7 @@
 		"font"			"mfontbold16"
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"		"east"
-		"xpos"			"401"
+		"xpos"			"400"
 		"ypos"			"50"
 		"zpos"			"2"
 		"wide"			"160"
@@ -371,7 +436,30 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"mRedTeam"
+		"fgcolor"		"255 255 255 255"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	"RedTeamPlayerCount2"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"RedTeamPlayerCount2"
+		"font"			"mfontbold16"
+		"labelText"		"%redteamplayercount%"
+		"textAlignment"		"east"
+		"xpos"			"401"
+		"ypos"			"51"
+		"zpos"			"2"
+		"wide"			"160"
+		"tall"			"20"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"0 0 0 255"
 		
 		if_mvm
 		{
@@ -1195,7 +1283,7 @@
 			"labelText"		"#TF_ScoreBoard_DeathsLabel"
 			"textAlignment"		"east"
 			"xpos"			"100"
-			"ypos"			"0"
+			"ypos"			"2"
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"

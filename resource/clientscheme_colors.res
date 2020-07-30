@@ -7,7 +7,7 @@ Scheme
 		// -------------
 		
 		"mHealth"			"255 255 255 255"
-		"mHealthBuff"		"0 150 255 255"
+		"mHealthBuff"		"0 150 100 255"
 		"mHealthLow"		"255 0 0 255"
 		"mHealthLowPulse"	"255 150 150 255"
 		
@@ -16,16 +16,16 @@ Scheme
 		"mAmmoLow"			"255 0 0 255"
 		"mAmmoLowPulse"		"255 150 150 255"
 		
-		"mUber"				"255 0 255 255"
-		"mUberFull"			"255 128 0 255"
+		"mUber"				"255 127 0 255"
+		"mUberFull"			"255 0 255 255"
 		
-		"mRedTeam"			"255 50 50 255"
-		"mBluTeam"			"50 150 255 255"
+		"mRedTeam"			"240 41 48 255"
+		"mBluTeam"			"0 165 240 255"
 		
 		"mBlack"			"0 0 0 255"
 		"mTransparentBlack"	"0 0 0 150"
 		
-		"mGray"				"128 128 128 255"
+		"mGray"				"127 127 127 255"
 		
 		"mWhite"			"255 255 255 255"
 		"mTransparentWhite"	"255 255 255 150"

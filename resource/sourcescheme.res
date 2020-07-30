@@ -6,7 +6,7 @@ Scheme
 	{
 		// THUD COLORS
 		
-		"thudTeal"					"0 126 140 215"
+		"mDullYellow"				"169 123 53 255"
 		
 		"thudWhite"					"255 255 255 255"
 		"thudLesserWhite"			"150 150 150 255"
@@ -63,9 +63,9 @@ Scheme
 		Button.TextColor				"thudWhite"
 		Button.BgColor					"thudDark"
 		Button.ArmedTextColor			"thudWhite"
-		Button.ArmedBgColor				"thudTeal"
+		Button.ArmedBgColor				"mDullYellow"
 		Button.DepressedTextColor		"thudWhite"
-		Button.DepressedBgColor			"thudTeal"	
+		Button.DepressedBgColor			"mDullYellow"	
 		Button.FocusBorderColor			"Blank"
 		
 		CheckButton.TextColor			"thudLesserWhite"
@@ -115,7 +115,7 @@ Scheme
 		ListPanel.TextBgColor				"thudDark"
 		ListPanel.BgColor					"LightPanelBG"
 		ListPanel.SelectedTextColor			"thudWhite"
-		ListPanel.SelectedBgColor			"thudTeal"
+		ListPanel.SelectedBgColor			"mDullYellow"
 		ListPanel.SelectedOutOfFocusBgColor	"thudLesserWhite"
 		ListPanel.EmptyListInfoTextColor	"thudLesserWhite"
 
@@ -123,9 +123,9 @@ Scheme
 		SectionedListPanel.BrightTextColor		"thudWhite"
 		SectionedListPanel.BgColor				"thudDark"
 		SectionedListPanel.SelectedTextColor			"thudWhite"
-		SectionedListPanel.SelectedBgColor				"thudTeal"
+		SectionedListPanel.SelectedBgColor				"mDullYellow"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"thudLesserWhite"
-		SectionedListPanel.OutOfFocusSelectedBgColor	"thudTeal"
+		SectionedListPanel.OutOfFocusSelectedBgColor	"mDullYellow"
 
 		MainMenu.TextColor			"thudLesserWhite"
 		MainMenu.ArmedTextColor		"thudWhite"
@@ -135,20 +135,20 @@ Scheme
 		Menu.TextColor			"thudWhite"
 		Menu.BgColor			"thudLight"
 		Menu.ArmedTextColor		"thudWhite"
-		Menu.ArmedBgColor		"thudTeal"
+		Menu.ArmedBgColor		"mDullYellow"
 		Menu.DividerColor		"BorderDark"
 		
 		ScrollBarButton.FgColor				"thudWhite"
 		ScrollBarButton.BgColor				"thudDark"
 		ScrollBarButton.ArmedFgColor		"thudWhite"
-		ScrollBarButton.ArmedBgColor		"thudTeal"
+		ScrollBarButton.ArmedBgColor		"mDullYellow"
 		ScrollBarButton.DepressedFgColor	"thudWhite"
-		ScrollBarButton.DepressedBgColor	"thudTeal"
+		ScrollBarButton.DepressedBgColor	"mDullYellow"
 
 		ScrollBarSlider.BgColor				"thudLight"		// this isn't really used
 		ScrollBarSlider.FgColor				"thudDark"	// handle with which the slider is grabbed
 		
-		Slider.NobColor				"thudTeal"		
+		Slider.NobColor				"mDullYellow"		
 		Slider.TextColor			"thudWhite"
 		Slider.TrackColor			"thudLight"
 		Slider.DisabledTextColor1	"TFTextMediumDark"
@@ -157,7 +157,7 @@ Scheme
 		RichText.TextColor				"thudWhite"
 		RichText.BgColor				"LightPanelBG"
 		RichText.SelectedTextColor		"thudWhite"
-		RichText.SelectedBgColor		"thudTeal"
+		RichText.SelectedBgColor		"mDullYellow"
 		
 		Console.TextColor			"100 255 100 255"
 		Console.DevTextColor		"thudWhite"
@@ -166,7 +166,7 @@ Scheme
 		TextEntry.BgColor				"LightPanelBG"
 		TextEntry.DisabledTextColor	    "thudLesserWhite"
 		TextEntry.DisabledBgColor		"Blank"
-		TextEntry.SelectedBgColor	    "thudTeal"
+		TextEntry.SelectedBgColor	    "mDullYellow"
 		TextEntry.SelectedTextColor		"thudWhite"
 		TextEntry.CursorColor			"thudLesserWhite"
 
