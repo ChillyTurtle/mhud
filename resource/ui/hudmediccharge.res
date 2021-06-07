@@ -21,10 +21,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"c0"
-		"xpos_minmode"	"c0"
-		"ypos"			"c50"
-		"ypos_minmode"	"c50"
+		"xpos"			"0"
+		"xpos_minmode"	"0"
+		"ypos"			"0"
+		"ypos_minmode"	"0"
 		"zpos"			"2"
 		"wide"			"250"
 		"tall"			"120"
@@ -39,16 +39,17 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"mfontbold48"
-		"fgcolor"		"mUber"
+		"fgcolor"		"mWhite"
 	}
+	
 	"ChargeLabelShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabelShadow"
-		"xpos"			"c2"
-		"xpos_minmode"	"c2"
-		"ypos"			"c52"
-		"ypos_minmode"	"c52"
+		"xpos"			"2"
+		"xpos_minmode"	"2"
+		"ypos"			"2"
+		"ypos_minmode"	"2"
 		"zpos"			"1"
 		"wide"			"250"
 		"tall"			"120"
@@ -88,19 +89,19 @@
 		"brighttext"	"0"
 		"font"			"HudFontSmallest"
 	}
-	
+
 	"ChargeMeter"
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
-		"xpos"			"0"
-		"xpos_minmode"			"0"
-		"ypos"			"r10"
-		"ypos_minmode"			"r10"
-		"zpos"			"2"
-		"wide"			"f0"
-		"tall"			"10"				
+		"xpos"			"65"	// 0
+		"xpos_minmode"	"65"	// 0
+		"ypos"			"40"	// r10
+		"ypos_minmode"	"40"	// r10
+		"zpos"			"0"
+		"wide"			"120"	// f0
+		"tall"			"42"	// 10			
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -111,7 +112,7 @@
 		"fgcolor_override"	"mUber"
 		"bgcolor_override"	"Blank"
 	}		
-
+	
 	"ChargeMeter1"
 	{	
 		"ControlName"	"ContinuousProgressBar"

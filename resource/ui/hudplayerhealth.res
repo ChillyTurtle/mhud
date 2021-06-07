@@ -51,10 +51,10 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"105"	[$WIN32]
-		"xpos_minmode"	"105"	[$WIN32]
-		"ypos"			"42"	[$WIN32]
-		"ypos_minmode"	"0"	[$WIN32]
+		"xpos"			"9999"	[$WIN32] // 105
+		"xpos_minmode"	"9999"	[$WIN32] // 105
+		"ypos"			"9999"	[$WIN32] // 42
+		"ypos_minmode"	"9999"	    [$WIN32] // 0
 		"zpos"			"2"
 		"wide"			"40"	[$WIN32]
 		"wide_minmode"	"40"	[$WIN32]
@@ -99,6 +99,22 @@
 		"font"			"mfontbold48"
 		"fgcolor"		"mBlack"
 	}
+	
+	"HealthBoxBG"	
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HealthBoxBG"
+		"xpos"			"65"
+		"ypos"			"40"
+		"zpos"			"0"
+		"wide"			"120"
+		"tall"			"42"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"0 0 0 0"
+		"PaintBackgroundType"	"0"
+	}
+	
 	"PlayerStatusMaxHealthValue"
 	{
 		"ControlName"	"CExLabel"

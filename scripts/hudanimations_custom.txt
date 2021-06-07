@@ -3,8 +3,9 @@ event HudHealthBonusPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
-	Animate	PlayerStatusHealthValue 		FgColor		"mHealthBuff"	Linear 0.0 0.0
+	// Animate	PlayerStatusHealthValue 		FgColor		"mHealthBuff"	Linear 0.0 0.0
 	Animate HealthBG						BgColor		"mHealthBuff"	Linear 0.0 0.0
+	Animate HealthBoxBG						BgColor		"mHealthBuff"	Linear 0.0 0.0
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -22,6 +23,7 @@ event HudHealthBonusPulseStop
 	
 	Animate	PlayerStatusHealthValue 		FgColor		"mHealth"	Linear 0.0 0.0
 	Animate HealthBG						BgColor		"Black"	Linear 0.0 0.0
+	Animate HealthBoxBG						BgColor		"0 0 0 0"	Linear 0.0 0.0
 }
 
 //===========================================
@@ -31,10 +33,12 @@ event HudHealthDyingPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
-	Animate	PlayerStatusHealthValue 		FgColor		"mHealthLow"	Linear 0.0 0.2
-	Animate	PlayerStatusHealthValue 		FgColor		"mHealthLowPulse"	Linear 0.2 0.4
+	// Animate	PlayerStatusHealthValue 		FgColor		"mHealthLow"	Linear 0.0 0.2
+	// Animate	PlayerStatusHealthValue 		FgColor		"mHealthLowPulse"	Linear 0.2 0.4
 	Animate HealthBG						BgColor		"mHealthLow"	Linear 0.0 0.2
 	Animate HealthBG						BgColor		"mHealthLowPulse"	Linear 0.2 0.4
+	Animate HealthBoxBG						BgColor		"mHealthLow"	Linear 0.0 0.2
+	Animate HealthBoxBG						BgColor		"mHealthLowPulse"	Linear 0.2 0.4
 	
 	RunEvent HudHealthDyingPulseLoop	0.4
 }
@@ -52,19 +56,22 @@ event HudHealthDyingPulseStop
 	
 	Animate	PlayerStatusHealthValue 		FgColor		"mHealth"	Linear 0.0 0.0
 	Animate HealthBG						BgColor		"Black"	Linear 0.0 0.0
+	Animate HealthBoxBG						BgColor		"0 0 0 0"	Linear 0.0 0.0
 }
 
 //===========================================
 
 event HudLowAmmoPulse
 {	
-	Animate	AmmoInClip  	FgColor		"mAmmoLow"		Linear 0.0 0.2
-	Animate	AmmoInClip  	FgColor		"mAmmoLowPulse"	Linear 0.2 0.4
-	Animate	AmmoInReserve  	FgColor		"mAmmoLow"		Linear 0.0 0.2
-	Animate	AmmoInReserve  	FgColor		"mAmmoLowPulse"	Linear 0.2 0.4
-	Animate	AmmoNoClip  	FgColor		"mAmmoLow"		Linear 0.0 0.2
-	Animate	AmmoNoClip  	FgColor		"mAmmoLowPulse"	Linear 0.2 0.4
-	
+	// Animate	AmmoInClip  	FgColor		"mAmmoLow"		Linear 0.0 0.2
+	// Animate	AmmoInClip  	FgColor		"mAmmoLowPulse"	Linear 0.2 0.4
+	// Animate	AmmoInReserve  	FgColor		"mAmmoLow"		Linear 0.0 0.2
+	// Animate	AmmoInReserve  	FgColor		"mAmmoLowPulse"	Linear 0.2 0.4
+	// Animate	AmmoNoClip  	FgColor		"mAmmoLow"		Linear 0.0 0.2
+	// Animate	AmmoNoClip  	FgColor		"mAmmoLowPulse"	Linear 0.2 0.4
+	Animate AmmoBoxBG			BgColor		"mAmmoLow"	Linear 0.0 0.2
+	Animate AmmoBoxBG			BgColor		"mAmmoLowPulse"	Linear 0.2 0.4
+
 	RunEvent HudLowAmmoPulseLoop	0.4
 }
 
@@ -79,9 +86,11 @@ event HudLowAmmoPulseStop
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
 	
-	Animate	AmmoInClip  	FgColor		"mAmmo"	Linear 0.0 0.0
-	Animate	AmmoInReserve  	FgColor		"mAmmo"	Linear 0.0 0.0
-	Animate	AmmoNoClip  	FgColor		"mAmmo"	Linear 0.0 0.0
+	// Animate	AmmoInClip  	FgColor		"mAmmo"	Linear 0.0 0.0
+	// Animate	AmmoInReserve  	FgColor		"mAmmo"	Linear 0.0 0.0
+	// Animate	AmmoNoClip  	FgColor		"mAmmo"	Linear 0.0 0.0
+	Animate AmmoBoxBG		BgColor		"0 0 0 0"	Linear 0.0 0.2
+	Animate AmmoBoxBG		BgColor		"0 0 0 0"	Linear 0.2 0.4
 }
 
 //===========================================
@@ -89,8 +98,8 @@ event HudLowAmmoPulseStop
 
 event HudMedicCharged
 {
-	Animate	ChargeLabel 	FgColor		"mUberFull"		Linear 0.0 0.2
-	Animate	ChargeLabel 	FgColor		"mUber"			Linear 0.2 0.4
+	// Animate	ChargeLabel 	FgColor		"mUberFull"		Linear 0.0 0.2
+	// Animate	ChargeLabel 	FgColor		"mUber"			Linear 0.2 0.4
 	
 	Animate	ChargeMeter 	FgColor		"mUberFull"		Linear 0.0 0.2
 	Animate	ChargeMeter 	FgColor		"mUber"			Linear 0.2 0.4
@@ -109,7 +118,7 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
 	
-	Animate	ChargeLabel 	FgColor		"mUber"		Linear 0.0 0.0
+	// Animate	ChargeLabel 	FgColor		"mUber"		Linear 0.0 0.0
 	Animate	ChargeMeter 	FgColor		"mUber"		Linear 0.0 0.0
 }
 

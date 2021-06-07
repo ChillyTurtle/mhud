@@ -121,7 +121,7 @@
 		"font"			"mfontbold48"
 		"fgcolor"		"mAmmo"
 		"xpos"			"0"
-		"ypos"			""
+		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"250"
 		"tall"			"120"
@@ -148,5 +148,20 @@
 		"textAlignment"	"center"		
 		"labelText"		"%Ammo%"
 		
-	}									
+	}			
+	
+	"AmmoBoxBG"	
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"AmmoBoxBG"
+		"xpos"			"65"
+		"ypos"			"40"
+		"zpos"			"0"
+		"wide"			"120"
+		"tall"			"42"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"0 0 0 0"
+		"PaintBackgroundType"	"0"
+	}
 }
